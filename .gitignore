@@ -1,0 +1,19 @@
+# Visual Studio user and workspace files
+**/.vs/
+*.user
+*.suo
+*.Backup.tmp
+
+# .NET build artifacts
+**/bin/
+**/obj/
+
+# Frontend dependencies and build artifacts
+**/node_modules/
+**/dist/
+**/.angular/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
